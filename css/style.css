@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face{
+	font-family: "Open Sans";
+	
+}
+
+:root{
+	--color-hover-menu:#FE8F01;
+	--fondo-header:#3d3d3d;
+	--fondo-footer: #333333;
+	--letra-footer: #bababa;
+	--color-general: #666;
+	--color-titulos: #000;
+	--fondo-card: #494949;
+	--fondo-counter: #010101;
+	--color-naranja: #fe8f01;
+	
+}
+body{
+	font-size: 14px;
+}
+header{
+	background-color: var(--fondo-header);
+	padding: 10px 0;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--letra-footer);
+	padding: 15px 0;
+	text-align: center;
+}
+
+#about .card{
+	background-color: var(--fondo-card);
+	color: #fff;
+	padding: 60px 30px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#options .card h4{
+	font-weight: 600;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+#options .card p{
+	font-size: 16px;
+	font-weight: 400;
+}
+#options .card i{
+	font-size: 40px;
+	color: var(--color-azul);
+	margin-bottom: 30px;
+}
+
+
+#about {
+	padding: 5%;
+}
+
+.icon {
+	font-size: 300%;
+	padding: 5%;
+}
+
+#counter {
+	background-color: var(--fondo-counter);
+	color: #FFFFFF;
+	text-align: center;
+	padding: 1%;
+	padding-bottom: 4%
+	
+}
+
+#counter h5 {
+	color: var(--color-naranja);
+}
+
+#about h1 {
+	font-weight: 400;
+}
+
